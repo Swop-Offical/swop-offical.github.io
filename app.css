@@ -52,13 +52,12 @@
       bottom: 0;
     }
     
-    @media (min-width: 980px) {
-      .logo img {
-        width: 30%;
-      }
-    }
     @media (min-width: 600px) {
-      .logo img {
-        width: 40%;
+      .logo {
+        height: 30%;
+      }
+      .logo img{
+        height: 100%;
+        width: initial;
       }
     }
